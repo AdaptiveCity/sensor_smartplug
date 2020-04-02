@@ -1,0 +1,12 @@
+build/
+dist/
+*.egg-info/
+*.pyc
+*.log
+*.err
+*.swp
+*#
+*~
+config/sensor_tare.json
+
+venv/
