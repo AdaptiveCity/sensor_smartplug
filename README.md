@@ -32,6 +32,8 @@ Koogeek KLUP1 `{"NAME":"Koogeek-KLUP1","GPIO":[0,0,0,17,134,132,0,0,131,56,21,0,
 
 Aoycocr U3S `{"NAME":"Aoycocr U3S","GPIO":[56,255,57,255,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}`
 
+Maxcio W-UK007S `{"NAME":"Maxcio","GPIO":[56,0,255,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}`
+
 ## Anoopsyche JH-G01B1 smart plug
 
 ![Anoopsyche smart plug](Anoopsyche_JH-G01B1/JH-G01B1.png)
@@ -53,4 +55,17 @@ Aoycocr U3S `{"NAME":"Aoycocr U3S","GPIO":[56,255,57,255,0,134,0,0,131,17,132,21
 ### Tasmota Config Template
 ```
 {"NAME":"Avatar UK 10A","GPIO":[0,0,56,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}
+```
+
+## Maxcio W-UK007S smart plug
+
+![Maxcio W-UK007S smart plug](Maxcio_W-UK007S/W-UK007S.png)
+
+[Amazon.co.uk link](https://www.amazon.co.uk/gp/product/B07BWFB55Q/)
+
+[Teardown](https://www.earth.li/~noodles/blog/2018/12/power-monitoring.html)
+
+### Tasmota W-UK007S Config Template
+```
+Maxcio W-UK007S `{"NAME":"Maxcio","GPIO":[56,0,255,0,0,134,0,0,131,17,132,21,0],"FLAG":0,"BASE":45}`
 ```
