@@ -227,3 +227,10 @@ These instructions provide a working but insecure open system.
 
 There are multiple actions that can be taken to improve the security of the Pi and smart devices, for example
 the web interface of the smart devices can be protected with a password.
+
+## Smartplug prototype networking setup
+
+For testing the smartplugs we can create a WiFi network SSD: CSN_NODE / key: CSN_NODE 
+with the access point at 192.168.75.2 admin/admin
+
+For testing we will place a MQTT server on the same network at 192.168.75.1 either with no user/pwd requirement or use csn-node/csn-node.
